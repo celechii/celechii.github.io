@@ -1,0 +1,90 @@
+* {
+	font-family: Lato;
+}
+
+body {
+	padding: 0;
+	background-color: #000000;
+	color: white;
+}
+
+nav {
+	display: grid;
+	background-color: #000;
+	grid-template-columns: auto auto auto;
+	align-items: center;
+}
+
+nav > * {
+	margin: 0 50px;
+}
+
+.HomeButton {
+	display: inline-flex;
+	/* align-self: center; */
+	align-items: center;
+	/* justify-content: center; */
+}
+
+.ProfilePic {
+	height: 64px;
+
+	margin-right: 10px;
+
+	background-blend-mode: multiply;
+	background-color: #d233fa;
+	border-radius: 32px;
+	transition: border-radius 0.1s;
+}
+
+.ProfilePic img {
+	height: 64px;
+	width: 64px;
+	border-radius: 32px;
+	transition: opacity 0.1s, border-radius 0.1s;
+}
+
+.ProfilePic img:hover {
+	border-radius: 10px;
+	opacity: 60%;
+}
+
+.ProfilePic:hover {
+	border-radius: 10px;
+}
+
+.MenuItems {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	display: inline-flex;
+	justify-content: space-evenly;
+	width: 100%;
+	max-width: 35em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li a {
+	font-size: x-large;
+	display: block;
+	color: white;
+	padding: 1em 1em;
+	margin: 0em 0.2em;
+	text-decoration: none;
+
+	border-bottom: 0 solid;
+	border-color: #d233fa;
+	transition: color 0.1s ease-in, border-bottom 0.1s ease-in,
+		padding 0.1s ease-in;
+}
+
+nav li a:hover {
+	color: #d233fa;
+	padding: 1em 1em 0.8em;
+	border-bottom: 0.2em solid;
+}
