@@ -11,7 +11,7 @@ body {
 nav {
 	display: grid;
 	background-color: #000;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 1fr 2fr 1fr;
 	align-items: center;
 }
 
@@ -20,9 +20,9 @@ nav > * {
 }
 
 .HomeButton {
-	display: inline-flex;
+	/* display: inline; */
 	/* align-self: center; */
-	align-items: center;
+	/* align-items: center; */
 	/* justify-content: center; */
 }
 
@@ -80,7 +80,7 @@ nav li a {
 	border-bottom: 0 solid;
 	border-color: #d233fa;
 	transition: color 0.1s ease-in, border-bottom 0.1s ease-in,
-		padding 0.1s ease-in;
+		padding 0.1s ease-in, transform 0.1s ease-in;
 }
 
 nav li a:hover {
