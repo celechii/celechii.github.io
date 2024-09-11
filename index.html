@@ -1,35 +1,20 @@
-<!DOCTYPE html>
+<!-- src/index.html.ejs -->
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Noé Charron | Home</title>
-		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-		<link href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css" rel="stylesheet" crossorigin="anonymous">
-		<link rel = "stylesheet" href = "./style.css">
-	</head>
-	
-	<body>
-		<nav>
-			<span class="HomeButton">
-				<h1 style="display: inline;">Noé Makes Games</h1>
-			</span>
-			<span class="MenuItems">
-				<ul>
-					<li><a href="#Games">Games</a></li>
-					<li><a href="#About">About</a></li>
-					<li><a href="#Contact">Contact</a></li>
-				</ul>
-			</span>
-			<span>
-				<p>hi :)</p>
-			</span>
-		</nav>
-		
-		<div class="Splash">
-			<span class="icon">
-				<img src="icon.png" width="100px" height="100px">
-			</span>
-		</div>
-	</body>
-
+  <head>
+    <title>Phanto's Ghostlace Site</title>
+  </head>
+  <body>
+    <!-- EJS templates use  to mark template logic. The dash at the start
+         means "output the return value of this function". -->
+    <!-- src/.header.html -->
+<header class="header-container">
+	<h1>Phanto's Ghostlace Site</h1>
+	<nav class="links">
+	  <a href="/">Home</a>
+	  <a href="/blog">Blog</a>
+	</nav>
+  </header>
+    <h2>Homepage</h2>
+    <p>Welcome to Phanto's Ghostlace Site</p>
+  </body>
 </html>
