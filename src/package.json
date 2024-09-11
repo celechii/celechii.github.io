@@ -1,0 +1,12 @@
+{
+  "name": "celechii.github.io",
+  "version": "0.1.0",
+  "private": "true",
+  "scripts": {
+    "phantomake": "phantomake src dist",
+    "watch": "phantomake watch src"
+  },
+  "dependencies": {
+    "phantomake": "https://github.com/Osmose/phantomake/releases/latest/download/source.tar.gz"
+  }
+}
